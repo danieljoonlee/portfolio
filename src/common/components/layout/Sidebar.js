@@ -35,7 +35,7 @@ class Sidebar extends Component {
 		    <p>
 				Visit <a href="https://github.com/danieljoonlee">My GitHub Repo</a><br/>
 				Visit <a href="https://www.linkedin.com/in/danieljoonlee">My Linkedin</a><br/>
-				Visit <a href="https://http://cargocollective.com/danieljoonlee">My Cargo</a><br/>
+				Visit <a href="http://cargocollective.com/danieljoonlee">My Cargo</a><br/>
 		    </p>
 
 
