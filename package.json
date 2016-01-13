@@ -1,18 +1,14 @@
 
 {
-  "name": "portfolio-redux-app",
+  "name": "portfolio",
   "version": "0.0.1",
-  "description": "A portfolio template built with Redux and React",
+  "description": "",
   "scripts": {
     "slate": "rm -rf node_modules && npm install",
     "clean": "rm -rf dist",
     "start": "NODE_ENV=development node src/server/index.js --progress --colors --profile",
     "start-prod": "NODE_ENV=production node src/server/index.js --progress --colors --profile",
     "build": "npm run clean && NODE_ENV=production webpack -p --progress --colors --profile"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/caljrimmer/portfolio-redux-app.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -25,9 +21,7 @@
     "redux-thunk": "^0.1.0",
     "history": "1.13.0",
     "classnames" : "^2.1.5",
-    "axios" : "^0.7.0"
-  },
-  "devDependencies": {
+    "axios" : "^0.7.0",
     "babel": "^5.8.21",
     "babel-core": "^5.8.22",
     "babel-loader": "^5.3.2",
