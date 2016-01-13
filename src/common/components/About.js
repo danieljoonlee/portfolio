@@ -25,13 +25,9 @@ class About extends Component {
 
       	  	<h3>About Me</h3>
 
-      	  	<p>I have been web developing since this past August.  I have concentrated heavily on JavaScript, HTML, and CSS.  Along with Nodejs, Reactjs, and MongoDB.</p> 
+      	  	<p>I am a web developer who has concentrated heavily on JavaScript, HTML, and CSS.  Along with Nodejs, Reactjs, and MongoDB.</p> 
 
-      	  	<p>During 2013-2014, I managed a crew of 9 in construction, and created a revenue of over 2 million dollars.</p>
-
-      	  	<p>Afterwards I was accepted to California Polytechnic University of Pomona for a Masters program in Landscape Architecture.</p>
-
-      	  	<p>During the summer of 2015, I found out about web development, and knew I couldnt do anything else in life.  I have devoted countless hours and sleepless nights.  Ive burned out, and got right back in.  Thats when I knew that web development is for me.</p>
+      	  	<p>I have a business background with graduate experience in landscape architecture, and managed my own design/build firm successful. </p>
 
 	      </div>
 
