@@ -11,7 +11,7 @@ export function getPortfolio() {
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, Express, MongoDB, Webpack, APIs(Google Maps, Twilio, Stripe)'
+    			skills : 'Node, MongoDB, Webpack, APIs(GoogleMaps, Twilio, Stripe)'
     		}
     	]
     },
@@ -26,7 +26,7 @@ export function getPortfolio() {
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, Express, Babel, Webpack, MongoDB'
+    			skills : 'Node, Babel, Webpack, MongoDB'
     		}
     	]
     },
@@ -41,7 +41,7 @@ export function getPortfolio() {
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, Express, MongoDB'
+    			skills : 'Node, MongoDB'
     		}
     	]
     },
