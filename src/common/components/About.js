@@ -25,9 +25,9 @@ class About extends Component {
 
       	  	<h3>About Me</h3>
 
-      	  	<p>I am a web developer who has concentrated heavily on JavaScript, HTML, and CSS.  Along with Nodejs, Reactjs, and MongoDB.</p> 
+      	  	<p>I am a web developer who has concentrated heavily on JavaScript, HTML, and CSS.  Along with Nodejs, Reactjs, and MongoDB.  I have a huge interest in react and node.</p> 
 
-      	  	<p>I have a business background with graduate experience in landscape architecture, and managed my own design/build firm successful. </p>
+      	  	<p>I have a business finance background with graduate experience in landscape architecture, and managed my own design/build firm successful. My CargoCollective link has some portfolio shots of my construction work.</p>
 
 	      </div>
 
