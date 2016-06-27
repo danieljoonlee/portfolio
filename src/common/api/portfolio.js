@@ -14,62 +14,6 @@ export function getPortfolio() {
     			skills : 'Node, MongoDB, Webpack, APIs(GoogleMaps, Twilio, Stripe)'
     		}
     	]
-    },
-    {
-    	link : 'http://www.github.com/danieljoonlee/authenticationDemo',
-    	title : 'Authentication Demo',
-    	classname : 'authdemo',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'React, JavaScript'
-    		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, Babel, Webpack, MongoDB'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.github.com/danieljoonlee/todoapp',
-    	title : 'TODO List',
-    	classname : 'todolist',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'React, JavaScript'
-    		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.github.com/danieljoonlee/blackjack',
-    	title : 'BlackJack App',
-    	classname : 'blackjack',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'EJS, JavaScript'
-    		},
-        {
-          title : 'Back End Developer',
-          skills : 'Node, Express'
-        }
-    	]
-    },
-    {
-    	link : 'https://github.com/danieljoonlee/votingapp',
-    	title : 'Voting App',
-    	classname : 'votingapp',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'HTML, CSS, JavaScript'
-    		}
-    	]
     }
   ]
 }
