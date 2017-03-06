@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ["style-loader", "css-loader", "sass-loader"],
         exclude: /node_modules/,
       }
     ],
@@ -31,8 +31,8 @@ module.exports = {
   plugins: [
     HtmlWebpackPluginConfig,
     new webpack.optimize.CommonsChunkPlugin({
-      name: 'commons',
-      filename: 'commons.js',
+      name: "commons",
+      filename: "commons.js",
       minChunks: 2,
     }),
   ]
