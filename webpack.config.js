@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 const path = require("path");
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -14,9 +15,25 @@ module.exports = {
     filename: "index.bundle.js",
   },
   module: {
-    loaders: [
-      { test: /\.js$/, loader: "babel-loader", exclude: /node_modules/ }
-    ]
+    rules: [
+      {
+        test: /\.js$/,
+        loader: "babel-loader",
+        exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+        exclude: /node_modules/,
+      }
+    ],
   },
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [
+    HtmlWebpackPluginConfig,
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'commons',
+      filename: 'commons.js',
+      minChunks: 2,
+    }),
+  ]
 }
