@@ -1,5 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
@@ -23,13 +24,19 @@ module.exports = {
       },
       {
         test: /\.(sass|scss)$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
-        exclude: /node_modules/,
+        loader: ExtractTextPlugin.extract({
+          fallbackLoader: "style-loader",
+          loader: "css-loader!sass-loader",
+        }),
       }
     ],
   },
   plugins: [
     HtmlWebpackPluginConfig,
+    new ExtractTextPlugin({
+      filename: "[name].bundle.css",
+      allChunks: true,
+    }),
     new webpack.optimize.CommonsChunkPlugin({
       name: "commons",
       filename: "commons.js",
